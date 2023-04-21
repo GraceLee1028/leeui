@@ -18,6 +18,9 @@ Vue.use(Select)
 ### select使用
 ```
 # select组件
-<zhyx-select v-model="value" :label.sync="label" :params="{value:'value',label:'name'}"></zhyx-select>
+<zhyx-select :url="url" v-model="value" :label.sync="label" :params="{value:'value',label:'name'}"></zhyx-select>
+
+# download 组件
+<zhyx-download :url="url" type="primary" plain >下载</zhyx-download>
 ```
 
